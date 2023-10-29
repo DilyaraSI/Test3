@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@200;600&display=swap");
+
+h1 {
+  color: #fff;
+  font-feature-settings: "liga" off;
+  font-family: "Jost", sans-serif;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2.56px;
+  text-transform: uppercase;
+}
+
+h2 {
+  color: #fff;
+  font-feature-settings: "liga" off;
+  font-family: "Jost", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 350;
+  line-height: normal;
+  letter-spacing: 0.48px;
+  text-transform: uppercase;
+}
+
+h3 {
+  color: #fff;
+  font-feature-settings: "liga" off;
+  font-family: "Jost", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 350;
+  line-height: normal;
+}
+
+.menu {
+  color: white;
+  font-family: "Jost", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 350;
+  line-height: normal;
+  letter-spacing: 0.32px;
+}
+
+header {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(/assets/images/Фон.png);
+  background-size: cover;
+  background-repeat: no repeat;
+}
+
+body {
+  margin: 0 auto;
+}
+
+div p {
+  color: #fff;
+  font-family: "Jost", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 350;
+  line-height: normal;
+  letter-spacing: 0.32px;
+}
+
+#logo {
+  width: 40px;
+  height: 40px;
+  margin-top: 20px;
+  margin-left: 120px;
+}
+
+button {
+  display: flex;
+  padding: 13px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 3px;
+  background: #799a0d;
+  color: white;
+  color: var(--unnamed, #fff);
+  text-align: center;
+  font-family: "Jost", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+a:hover {
+  color: blue;
+}
